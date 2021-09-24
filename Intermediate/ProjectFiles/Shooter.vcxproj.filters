@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Shooter.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{0DEF80AC-8FA0-4195-9B69-FDDE3CAC5FD8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Shooter.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ShooterEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{297E0514-3A5B-4F8E-B6CA-A1A79AEACAE8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Shooter">
+      <UniqueIdentifier>{E61141A7-1CEB-4A0B-8CB4-D89F9C9B7D5E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Shooter\Shooter.Build.cs">
+      <Filter>Source\Shooter</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Shooter\Shooter.cpp">
+      <Filter>Source\Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Shooter\Shooter.h">
+      <Filter>Source\Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Shooter\ShooterCharacter.cpp">
+      <Filter>Source\Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Shooter\ShooterCharacter.h">
+      <Filter>Source\Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Shooter\ShooterGameModeBase.cpp">
+      <Filter>Source\Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Shooter\ShooterGameModeBase.h">
+      <Filter>Source\Shooter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
