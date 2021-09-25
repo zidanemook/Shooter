@@ -24,6 +24,9 @@ protected:
 
 	void MoveForward(float fValue);
 	void MoveRight(float fValue);
+	void TurnAtRate(float fValue);
+
+	void LookUpAtRate(float fValue);
 
 public:	
 	// Called every frame
@@ -39,6 +42,12 @@ private:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	UCameraComponent* mFollowCamera;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	float mBaseTurnRate;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	float mBaseLookUpRate;
 
 public:
 
