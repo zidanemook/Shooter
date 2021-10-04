@@ -5,6 +5,7 @@
 *.db-wal
 Binaries/.
 Binaries/Win64/*.*
+Saved\Config\CrashReportClient\.
 Intermediate/Build/Win64/.
 Binaries/Win64/ShooterEditor.target
 Binaries/Win64/UE4Editor-Shooter.dll

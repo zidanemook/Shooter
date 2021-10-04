@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{94A6C6F3-99B3-346E-9557-ABF9D4064DBD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{8E2F6A87-1826-34F4-940C-CC23A48F9FE4}"
-	ProjectSection(SolutionItems) = preProject
-		rule.txt = rule.txt
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shooter", "Intermediate\ProjectFiles\Shooter.vcxproj", "{78D5A0CA-E7D1-48DA-9883-4C9C35CC56D4}"
 EndProject
@@ -31,6 +28,10 @@ Global
 		Development|Win64 = Development|Win64
 		Shipping|Win32 = Shipping|Win32
 		Shipping|Win64 = Shipping|Win64
+	EndGlobalSection
+	# Visual Assist Section
+	GlobalSection(44630d46-96b5-488c-8df926e21db8c1a3) = preSolution
+		ueSolution=true
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{78D5A0CA-E7D1-48DA-9883-4C9C35CC56D4}.DebugGame Editor|Win32.ActiveCfg = Invalid|Win32
@@ -66,13 +67,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{78D5A0CA-E7D1-48DA-9883-4C9C35CC56D4} = {8E2F6A87-1826-34F4-940C-CC23A48F9FE4}
 		{3C82EC62-D0E6-4C6A-8FFD-BAB413AE0146} = {94A6C6F3-99B3-346E-9557-ABF9D4064DBD}
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A74EBDF9-0839-4FD3-98B1-49A3CB38553F}
-	EndGlobalSection
-	GlobalSection(44630d46-96b5-488c-8df926e21db8c1a3) = preSolution
-		ueSolution = true
+		{78D5A0CA-E7D1-48DA-9883-4C9C35CC56D4} = {8E2F6A87-1826-34F4-940C-CC23A48F9FE4}
 	EndGlobalSection
 EndGlobal
