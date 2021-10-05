@@ -5,8 +5,11 @@
 *.db-wal
 Binaries/.
 Binaries/Win64/*.*
-Saved\Config\CrashReportClient\.
-Intermediate/Build/Win64/.
+Saved/Config/CrashReportClient/*.*
+Intermediate/Build/Win64/*.*
+Intermediate/Build/Win64/UE4Editor/Development/Shooter/*.*
+Intermediate/Build/Win64/UE4Editor/Inc/Shooter/*.*
+Intermediate/ReimportCache/*.*
 Binaries/Win64/ShooterEditor.target
 Binaries/Win64/UE4Editor-Shooter.dll
 Binaries/Win64/UE4Editor-Shooter.pdb
@@ -14,7 +17,8 @@ Binaries/Win64/UE4Editor-Shooter.pdb
 Intermediate/Build/BuildRules/ShooterModuleRules.dll
 Intermediate/Build/BuildRules/ShooterModuleRules.pdb
 *.bin
-Saved\Logs\*.*
+Saved/Logs/*.*
+Saved/Config/CrashReportClient/*.*
 Intermediate/Build/Win64/ShooterEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.cpp
 Intermediate/Build/Win64/ShooterEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h
 Intermediate/Build/Win64/ShooterEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.obj
@@ -169,3 +173,5 @@ Intermediate/Build/Win64/UE4Editor/Development/Shooter/UE4Editor-Shooter-9641.li
 Intermediate/Build/Win64/UE4Editor/Development/Shooter/UE4Editor-Shooter-9641.suppressed.lib
 *.log
 *.log
+*.ipch
+*.bin
